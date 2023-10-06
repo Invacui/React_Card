@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from './Card';
 
-function CardList({ cards, onSelect }) {
+function CardList({ cards , onSelect }) {
   return (
     <div className="card-list">
       {cards.map((card) => (

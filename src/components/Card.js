@@ -1,9 +1,9 @@
-import React from 'react';
-import './Card.css';
+import React from "react";
+import "./Card.css";
 
 function Card({ cardData, onSelect }) {
   const handleClick = () => {
-    onSelect(cardData); // Pass the entire cardData object to onSelect
+    onSelect(cardData.title); // Call the parent's onSelect function
   };
 
   return (
@@ -16,4 +16,3 @@ function Card({ cardData, onSelect }) {
 }
 
 export default Card;
-
