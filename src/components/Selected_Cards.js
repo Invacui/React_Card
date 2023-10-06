@@ -4,12 +4,11 @@ function SelectedCards({ selectedCards }) {
   return (
     <div className="selected-cards">
       <h2>Selected Cards</h2>
-      <h2>{selectedCards}</h2>
-     {/*  <ul>
+      <ul>
         {selectedCards.map((title, index) => (
           <li key={index}>{title}</li>
         ))}
-      </ul> */}
+      </ul>
     </div>
   );
 }
